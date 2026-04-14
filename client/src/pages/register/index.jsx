@@ -631,7 +631,7 @@ export default function RegisterPage() {
                   </div>
 
                   <Field label="Full Name" value={name} onChange={e => setName(e.target.value)}
-                    error={errs.name} success placeholder="Rahul Sharma" autoComplete="name" />
+                    error={errs.name} success placeholder="Monish Shekh" autoComplete="name" />
                   <Field label="Email Address" type="email" value={email} onChange={e => setEmail(e.target.value)}
                     error={errs.email} success placeholder="you@example.com" autoComplete="email" />
                   <div>
