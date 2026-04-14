@@ -34,7 +34,7 @@ export default defineConfig({
           'motion-vendor':  ['framer-motion'],
           'chart-vendor':   ['recharts'],
           'store-vendor':   ['zustand'],
-          'firebase-vendor': ['firebase'],
+          'firebase-vendor': ['firebase/app', 'firebase/auth'],
         },
       },
     },
